@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 
-const IP = "52.172.232.221";
+const IP = "3.110.123.138";
 const PORT = "43210";
 // change above IP PORT ONLY 
 async function handler(req: Request): Promise<Response> {
