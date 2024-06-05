@@ -7,17 +7,17 @@
 .sub-container1 {
   margin-bottom: 2rem;
   .sc11 {
-    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    background: linear-gradient(135deg, #f0f4c3, #b2dfdb);
     width: 97%;
     height: fit-content;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, background 0.3s;
   }
 }
 
 .sub-container1 .sc11:hover {
   transform: scale(1.05);
-  background: linear-gradient(135deg, #fda085 0%, #f6d365 100%);
+  background: linear-gradient(135deg, #b2dfdb, #f0f4c3);
 }
 
 table {
@@ -27,9 +27,9 @@ table {
 }
 
 .sub-container2 {
-  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(135deg, #ffe0b2, #ffccbc);
   margin-bottom: 2rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .live-card {
@@ -38,19 +38,19 @@ table {
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: linear-gradient(90deg, #06c5c8 0%, #fc00ff 100%);
+  background: linear-gradient(90deg, #ff9a9e, #fecfef);
   border-radius: 8px;
   padding-top: 1.2rem;
   padding-left: 1rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .live-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .leaderboard {
@@ -73,8 +73,8 @@ table {
     font-size: 1.6rem;
     line-height: normal;
     text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     animation: textFadeIn 2s ease-in-out;
   }
   .sessionType {
@@ -95,31 +95,31 @@ table {
   .teamA, .teamB {
     flex-grow: 1;
     margin: 1rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
   }
   .teamA:hover, .teamB:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
   }
   .teamA .header {
     padding: 1rem;
-    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #c5cae9, #e8eaf6);
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
   .teamB .header {
     padding: 1rem;
-    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #ffcdd2, #e1bee7);
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
   .players {
     padding-left: 0.7rem;
     text-align: left;
     padding-top: 1rem;
-    color: #fff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     li {
       padding-bottom: 1rem;
     }
@@ -134,7 +134,7 @@ table {
 }
 
 .mat-mdc-table {
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  background: linear-gradient(135deg, #f3e5f5, #e8f5e9);
 }
 
 @media only screen and (max-width: 768px) {
