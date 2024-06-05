@@ -7,17 +7,17 @@
 .sub-container1 {
   margin-bottom: 2rem;
   .sc11 {
-    background-color: rgba(63, 81, 181, 0.5);
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
     width: 97%;
     height: fit-content;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, background-color 0.3s;
+    transition: transform 0.3s, background 0.3s;
   }
 }
 
 .sub-container1 .sc11:hover {
   transform: scale(1.05);
-  background-color: rgba(63, 81, 181, 0.7);
+  background: linear-gradient(135deg, #fda085 0%, #f6d365 100%);
 }
 
 table {
@@ -27,7 +27,7 @@ table {
 }
 
 .sub-container2 {
-  background-color: rgba(63, 81, 181, 0.5);
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
   margin-bottom: 2rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -38,8 +38,7 @@ table {
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background-color: #06c5c8;
-  background-image: linear-gradient(90deg, #06c5c8 0%, #fc00ff 100%);
+  background: linear-gradient(90deg, #06c5c8 0%, #fc00ff 100%);
   border-radius: 8px;
   padding-top: 1.2rem;
   padding-left: 1rem;
@@ -105,13 +104,13 @@ table {
   }
   .teamA .header {
     padding: 1rem;
-    background-color: rgb(63, 81, 181);
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   .teamB .header {
     padding: 1rem;
-    background-color: rgb(244, 67, 54);
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
@@ -135,7 +134,7 @@ table {
 }
 
 .mat-mdc-table {
-  background-color: rgba(139, 133, 133, 0.13);
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
 }
 
 @media only screen and (max-width: 768px) {
