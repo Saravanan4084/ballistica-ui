@@ -1,8 +1,33 @@
 .headline {
   text-align: center;
-  .server-name {
-    font-size: 2rem;
-    padding: 0 2rem 2rem;
-    line-height: normal;
+  padding: 2rem;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.headline .server-name {
+  font-size: 2rem;
+  padding: 0 2rem 2rem;
+  line-height: normal;
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.headline .server-name:hover {
+  transform: scale(1.1);
+  color: #ffeb3b;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
