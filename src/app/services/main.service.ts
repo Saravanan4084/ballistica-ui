@@ -9,7 +9,7 @@ import { TokenStorageService } from "./token-storage.service";
 })
 export class MainService {
   serverName = "";
-  discord = "";
+  discord = "https://discord.gg/tTD9bDuU";
   vapidKey = "";
   api: string;
   gotServerInfo = new Subject<void>();
