@@ -36,7 +36,7 @@ export class MainService {
     return this.http.get(`${this.api}/api/live-stats`);
   }
   getDiscord(): string {
-    return this.discord;
+    return "https://discord.gg/tTD9bDuU";
   }
   getVapidKey(): string {
     return this.vapidKey;
