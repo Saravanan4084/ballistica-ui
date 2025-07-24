@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1753365013631,
+  "index": "/ballistica-ui/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ballistica-ui/737.6d800f90fb976cb4.js",
+        "/ballistica-ui/favicon.ico",
+        "/ballistica-ui/index.html",
+        "/ballistica-ui/main.64df7ec9932639d6.js",
+        "/ballistica-ui/manifest.webmanifest",
+        "/ballistica-ui/polyfills.59dab4c60daf6e4a.js",
+        "/ballistica-ui/runtime.aecdcdd14c5a5dd2.js",
+        "/ballistica-ui/styles.2bc1c9a9bc6503dc.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ballistica-ui/assets/icons/icon-128x128.png",
+        "/ballistica-ui/assets/icons/icon-144x144.png",
+        "/ballistica-ui/assets/icons/icon-152x152.png",
+        "/ballistica-ui/assets/icons/icon-192x192.png",
+        "/ballistica-ui/assets/icons/icon-384x384.png",
+        "/ballistica-ui/assets/icons/icon-512x512.png",
+        "/ballistica-ui/assets/icons/icon-72x72.png",
+        "/ballistica-ui/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ballistica-ui/737.6d800f90fb976cb4.js": "ed0093d287e155f1dde97cc4a2215ac554ca9c4f",
+    "/ballistica-ui/assets/icons/icon-128x128.png": "430a7e31bd706c1d71403ceafd7004304339a42d",
+    "/ballistica-ui/assets/icons/icon-144x144.png": "03c58d0581b9f7467bc51a697afc00f0a4ca8313",
+    "/ballistica-ui/assets/icons/icon-152x152.png": "150863cec336f020352d1931dd44ea4cb3b134da",
+    "/ballistica-ui/assets/icons/icon-192x192.png": "cbfafe03ecf872a98ff3eebb62d9df17defb792b",
+    "/ballistica-ui/assets/icons/icon-384x384.png": "0887f2d280a3a40a22eeb5d2403ab4ee56544ec7",
+    "/ballistica-ui/assets/icons/icon-512x512.png": "125a9ae5ef6f5af6e9a78d3805a5a9f59746fc44",
+    "/ballistica-ui/assets/icons/icon-72x72.png": "e9ae00cc15b7c6db92df856be3537f0023e9c521",
+    "/ballistica-ui/assets/icons/icon-96x96.png": "8742f49979dabb04951676c29a02152f48a7b09d",
+    "/ballistica-ui/favicon.ico": "87258baf3e9096d6dac2c05177ce6b2c1e990cb6",
+    "/ballistica-ui/index.html": "bfe7f16262bdeefcf4a0c609279a066b65400d27",
+    "/ballistica-ui/main.64df7ec9932639d6.js": "e3d92ef92a419900250a8cf63b8c8aac43e3626a",
+    "/ballistica-ui/manifest.webmanifest": "626be62a9b9d9c6579544571ea6e311de489bc8a",
+    "/ballistica-ui/polyfills.59dab4c60daf6e4a.js": "ec4d0459682599891f9c1dff2544fc79320f03fe",
+    "/ballistica-ui/runtime.aecdcdd14c5a5dd2.js": "ade435a588d2be67c544975d04cece965fda2954",
+    "/ballistica-ui/styles.2bc1c9a9bc6503dc.css": "688f707bb127ed263bf9b28efb22496a786ba1e6"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
